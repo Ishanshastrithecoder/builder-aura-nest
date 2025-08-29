@@ -29,12 +29,10 @@ const App = () => (
               </Layout>
             }
           />
-          <Route
-            path="/dashboard"
-            element={
-              <Dashboard />
-            }
-          />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/login" element={<Layout><Login /></Layout>} />
+          <Route path="/register" element={<Layout><Register /></Layout>} />
+          <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
