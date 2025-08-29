@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import H2Molecule from "@/components/visuals/H2Molecule";
 
 function Badge({ children }: { children: React.ReactNode }){
   return (
