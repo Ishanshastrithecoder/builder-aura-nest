@@ -195,6 +195,12 @@ export default function Index() {
                   <div className="rounded-lg border p-4">
                     <p className="text-xs text-muted-foreground">Compliance</p>
                     <p className="font-semibold">KYC/AML, audit logs</p>
+                    <div className="mt-3 h-28 overflow-hidden rounded-md bg-gradient-to-br from-emerald-500/10 to-cyan-500/10">
+                      {/* 3D H2 molecule */}
+                      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+                      {/* @ts-ignore */}
+                      <H2Molecule />
+                    </div>
                   </div>
                 </div>
               </div>
