@@ -37,6 +37,9 @@ function Header() {
           <NavLink to="/dashboard" className={({isActive})=>cn("text-sm", isActive?"text-foreground":"text-muted-foreground hover:text-foreground")}>Dashboard</NavLink>
         </nav>
         <div className="flex items-center gap-2">
+          <NavLink to="/login" className={({isActive})=>cn("hidden md:inline text-sm px-2 py-1 rounded-md", isActive?"text-foreground":"text-muted-foreground hover:text-foreground")}>Login</NavLink>
+          <NavLink to="/register" className={({isActive})=>cn("hidden md:inline text-sm px-2 py-1 rounded-md", isActive?"text-foreground":"text-muted-foreground hover:text-foreground")}>Register</NavLink>
+          <NavLink to="/settings" className={({isActive})=>cn("hidden md:inline text-sm px-2 py-1 rounded-md", isActive?"text-foreground":"text-muted-foreground hover:text-foreground")}>Settings</NavLink>
           <a href="#cta" className="hidden md:inline-flex">
             <Button variant="ghost">Request demo</Button>
           </a>
